@@ -1,16 +1,14 @@
-# React + Vite
+# FreshStroreVN
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Fresh vegetable e-commerce website (React frontend)
 
-Currently, two official plugins are available:
+This project is an e-commerce website specialized in selling fresh vegetables and fruits. It provides customers with a convenient way to browse products by category, search for specific items, view detailed information such as price, origin, and nutritional value, and place orders online. The system supports user registration and login, a shopping cart, order management, and payment processing. On the admin side, the platform allows staff to manage product listings, update inventory, process orders, and track sales statistics. The goal of the website is to bring fresh, high-quality vegetables closer to consumers while helping farmers and suppliers reach a wider market through a simple and user-friendly online shopping experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React + Vite
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+```bash
+npm install
+npm run dev
+```
